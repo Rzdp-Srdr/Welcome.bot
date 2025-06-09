@@ -7,7 +7,8 @@ from telegram.ext import (
 )
 
 TOKEN = os.getenv("TOKEN")
-CHANNEL_ID = os.getenv("CHANNEL_ID")
+CHANNEL_ID =
+int(os.getenv("CHANNEL_ID"))
 
 welcome_text = "Welcome to the group 🫂"
 pending_setups = {}
